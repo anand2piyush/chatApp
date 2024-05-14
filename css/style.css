@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(white, purple);
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 34px;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-bottom: 23px;
+    border-radius: 5px;
+
+}
+
+.message {
+    /* background-color: rgba(220, 194, 223, 0.992); */
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+}
+
+.left {
+    background-color: white;
+    float: left;
+    clear: both;
+    border-radius: 0 20px 20px;
+}
+
+.right {
+    border-radius: 20px 20px 0px 20px;
+    float: right;
+    clear: both;
+    background-color: transparent;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+}
+
+#messageInp{
+    background-color: rgba(213, 159, 219, 0.992);
+    width: 85%;
+    height: 30px;
+    border: 2px solid black;
+
+    border-radius: 6px;
+}
+
+.btn{
+    cursor: pointer;
+    /* border: 2px solid black; */
+    /* border-radius: 16px; */
+    height: 4%;
+    background-color:transparent;
+    border: transparent;
+    width: 4%;
+}
+
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/* Webkit browsers (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2); /* Color of the scrollbar handle */
+    border-radius: 5px; /* Border radius of the scrollbar handle */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4); /* Color of the scrollbar handle on hover */
+  }
+  
